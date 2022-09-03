@@ -11,6 +11,8 @@
 - You can get the webdriver [here](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
 ### 4. You MUST have a Steam Authenticator Application installed on a Rooted Machine (Rooted = has a file explorer).
 - You can get the steam desktop authenticator app [here](https://github.com/jessecar96/steamdesktopauthenticator).
+### 5. I recommend executing this project on Pycharm or Visual Studio Code.
+- I think that in other IDE's it might get more complicated
 # What You Need To Know Before Usage
 ### 1. main.py
 - The main script, it is the script that does the whole process of signing in to steam and chaning your name.
