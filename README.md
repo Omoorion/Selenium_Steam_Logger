@@ -36,7 +36,7 @@
 - YOU MUST SEPERATE EACH NAME WITH A ";" SIGN.
 # Credits
 ### Felipe Almeida (@fgalmeida) for the steam-auth-grabber project.
-- I altered the code a bit by making it also write the steam authenticator code into a steamauthcode.txt text file.
+- I altered his index.js code a tad by making it also write the steam authenticator code into the steamauthcode.txt text file.
 - You can find the original, untouched steam-guard-grabber [here](https://github.com/fgalmeida/steam-guard-grabber).
 
 # License
