@@ -1,8 +1,8 @@
 {
     "account": {
         "comment": "I acquired shared_secret through Steam Desktop Authenticator app -> maFiles -> yoursteamidcodewhichwillbeabunchofnumbers.maFile",
-        "shared_secret": "MCd02hCHI7glTianG3FGn9BSG1A",
-        "username": "picwick2",
-        "password": "Goomer1805"
+        "shared_secret": "yoursharedsecretscodefromthefile",
+        "username": "yourusername",
+        "password": "yourpassword"
     }
 }
