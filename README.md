@@ -37,7 +37,7 @@
 # Credits
 ### Felipe Almeida (@fgalmeida) for the steam-auth-grabber project.
 - I altered his index.js code a tad by making it also write the steam authenticator code into the steamauthcode.txt text file.
-- You can find the original, untouched steam-guard-grabber [here](https://github.com/fgalmeida/steam-guard-grabber).
+- You can find his untouched steam-guard-grabber project [here](https://github.com/fgalmeida/steam-guard-grabber).
 
 # License
 ### I allow usage of my contributed part in this project for any usage excluding:
