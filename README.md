@@ -3,7 +3,8 @@ Steam webscraper, will log into steam and change your name every hour automatica
 # Requirements for usage:
 ### 1. You MUST have NODE.JS installed on your machine.
 ### 2. You MUST use a machine with a WINDOWS OS in order for the Powershell script to work, otherwise you must change the powershell script into your OS's alternative.
-# Which Scripts Should I Care About Or Alter Information In?
+# What You Need To Know
+## This is what you need to know before using this project:
 ### 1. main.py
 - The main script, it is the script that does the whole process of signing in to steam and chaning your name.
 - You will have to insert a lot of information in the signin function and outside it, therefore you MUST edit it.
