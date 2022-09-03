@@ -1,4 +1,4 @@
-# Selenium Steam Logger and Name Changer
+# Selenium Steam Account Logger and Name Changer
 - A steam webscraper done using selenium and msedge webdriver. 
 - It's purpose is to log into your steam account and change your steam profile name every hour automatically.
 # Requirements for usage:
