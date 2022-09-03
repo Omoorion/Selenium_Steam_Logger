@@ -29,7 +29,9 @@
 - A file containing your own custom names for the random generator in main.py to pick from.
 - YOU MUST SEPERATE EACH NAME WITH A ";" SIGN.
 # Credits
-### Felipe Almeida (@fgalmeida) for the steam-auth-grabber project. you can find it [here](https://github.com/fgalmeida/steam-guard-grabber).
+### Felipe Almeida (@fgalmeida) for the steam-auth-grabber project.
+- I altered the code a bit by making it also write the steam authenticator code into a steamauthcode.txt text file.
+- You can find the original, untouched steam-guard-grabber [here](https://github.com/fgalmeida/steam-guard-grabber).
 
 # License
 ### I allow usage of my contributed part in this project for any usage excluding:
