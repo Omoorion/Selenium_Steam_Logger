@@ -27,5 +27,10 @@ Steam webscraper, will log into steam and change your name every hour automatica
 - A file containing your own custom names for the random generator in main.py to pick from.
 - YOU MUST SEPERATE EACH NAME WITH A ";" SIGN.
 # Credits
-### Felipe Almeida (@fgalmeida) for the steam-auth-grabber project. you can find it [here](https://github.com/fgalmeida/steam-guard-grabber)
+### Felipe Almeida (@fgalmeida) for the steam-auth-grabber project. you can find it [here](https://github.com/fgalmeida/steam-guard-grabber).
+
+# License
+### I allow usage of my contributed part in this project for any usage excluding:
+- Usage for False purposes such as hacking
+- Usage for the purpose of profiting.
 
