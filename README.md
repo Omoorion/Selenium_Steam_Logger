@@ -1,5 +1,6 @@
 # Selenium Steam Logger and Name Changer
-Steam webscraper, will log into steam and change your name every hour automatically.
+- A steam webscraper. 
+- It's purpose is to log into your steam account and change your steam profile name every hour automatically.
 # Requirements for usage:
 ### 1. You MUST have NODE.JS installed on your machine.
 ### 2. You MUST use a machine with a WINDOWS OS in order for the Powershell script to work, otherwise you must change the powershell script into your OS's alternative.
