@@ -4,7 +4,7 @@
 # Requirements for usage:
 ### 1. You MUST have NODE.JS installed on your machine.
 ### 2. You MUST use a machine with a WINDOWS OS in order for the Powershell script to work, otherwise you must change the powershell script into your OS's alternative.
-### 3. You MUST have an Edge webdriver installed and Edge browser itself too (if you choose a different driver you must alter the code in main.py for it to work). you can get the webdriver [here](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/)
+### 3. You MUST have an Edge webdriver installed and Edge browser itself too (if you choose a different driver you must alter the code in main.py for it to work). you can get the webdriver [here](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
 # What You Need To Know Before Usage
 ### 1. main.py
 - The main script, it is the script that does the whole process of signing in to steam and chaning your name.
