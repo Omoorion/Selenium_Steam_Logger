@@ -24,5 +24,5 @@ Steam webscraper, will log into steam and change your name every hour automatica
 - it will always contain your steam authentication code which main.py needs to use in order to log into your account.
 ### 6. SteamNames.txt
 - DO NOT ALTER IT'S NAME WITHOUT CHANGING IT IN THE CODE TOO (usages: main.py).
-- A file containing your own custom names for the random generator to pick.
+- A file containing your own custom names for the random generator in main.py to pick from.
 - YOU MUST SEPERATE EACH NAME WITH A ";" SIGN.
