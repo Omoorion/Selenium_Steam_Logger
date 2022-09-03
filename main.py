@@ -10,12 +10,12 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.edge.service import Service
 
 # using a driver of the Edge browser because the Google one is not upto date
-s = Service(r'D:\Drivers\msedgedriver.exe')
+s = Service(r'D:\YourDriverFolder\msedgedriver.exe')
 driver = webdriver.Edge(service=s)
 driver.set_page_load_timeout(15)
 
 # location of your txt file containing the names you want
-file_path = r"D:\Ideas\Funny steam names.txt"
+file_path = r"D:\YourSteamNamesFolder\steam names.txt"
 
 
 # signin funtion, you will have to insert a lot of information here so DO NOT IGNORE -----------------------------------
@@ -23,7 +23,7 @@ def signin():
     finished = 0
     while finished == 0:
         try:
-            driver.get('https://steamcommunity.com/id/gbucks/')  # logs into your steam profile (fill this id in)
+            driver.get('https://steamcommunity.com/id/yoursteamid/')  # logs into your steam profile (fill this id in)
             if driver.title.__contains__("Steam"):
                 finished = 1
             else:
@@ -48,12 +48,12 @@ def signin():
 
     # inserting username and password details
     input_field1 = driver.find_element(By.XPATH, "//input[@type='text']")
-    input_field1.send_keys("picwick2")  # insert your username here
+    input_field1.send_keys("username")  # insert your username here
 
     time.sleep(1)
 
     input_field1 = driver.find_element(By.XPATH, "//input[@type='password']")
-    input_field1.send_keys("Goomer1805")  # insert your password here
+    input_field1.send_keys("password")  # insert your password here
 
     time.sleep(1)
 
@@ -74,7 +74,7 @@ def signin():
 
     # the code has now been written into a steamauthcode txt saver of your choice.
     # now we must grab it and get the code in order to insert it to the steam authenticator.
-    f = open("D:/Downloads/steam-guard-grabber-main/steamauthcode.txt", "r")
+    f = open("D:/YourPath/steam-guard-grabber-main/steamauthcode.txt", "r")
     steamauthcode = f.read()
     # waiting until the new code is usable (steam auth grabber gives next code instead of current code all the time)
     print("waiting 30 secs for code to be usable...")
@@ -165,7 +165,7 @@ while True:
         wait.until(expected_conditions.title_contains("Steam Community"))
     except TimeoutException:
         # goes back to your profile page, insert your profile page id here again.
-        driver.get('https://steamcommunity.com/id/gbucks/')
+        driver.get('https://steamcommunity.com/id/yoursteamid/')
 
     print("Entering: " + driver.title)
 
@@ -173,6 +173,6 @@ while True:
     print(time.time())
     # waits until an input from the keyboard was entered
     print("Generating new name again in 1 hr")
-    name1 = ""
-    time.sleep(3600)  # sleep for 1 hr
+    name1 = ""  # clearing name.
+    time.sleep(3600)  # waits for 1 hr
 # end of loop ----------------------------------------------------------------------------------------------------------
