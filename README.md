@@ -31,6 +31,6 @@ Steam webscraper, will log into steam and change your name every hour automatica
 
 # License
 ### I allow usage of my contributed part in this project for any usage excluding:
-- Usage for False purposes such as hacking
+- Usage for False purposes such as hacking.
 - Usage for the purpose of profiting.
 
