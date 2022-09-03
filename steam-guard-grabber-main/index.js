@@ -7,7 +7,7 @@ var fs = require("fs");
 // Instance for account
 var firstClient = new SteamUser();
 
-// Config
+// Config, you must go to it in order to insert your account details and shared secrets
 var config = JSON.parse(fs.readFileSync("./config.json"));
 
 var firstLogonOptions = {
