@@ -28,6 +28,7 @@ console.log(
   `Steam Guard: \n%s - Steam Guard Code [30 Seconds]\n----------------------`,
   guardcode
 );
+// insert the authenticator code into the .txt file for usage in the main.py function
 fileList = 'steamauthcode.txt';
 
 fs.readFile(fileList, function (err, data) {
