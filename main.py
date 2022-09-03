@@ -15,7 +15,7 @@ driver = webdriver.Edge(service=s)
 driver.set_page_load_timeout(15)
 
 # location of your txt file containing the names you want
-file_path = r"D:\YourSteamNamesFolder\steam names.txt"
+file_path = r"D:\YourSteamNamesFolder\SteamNames.txt"
 
 
 # signin funtion, you will have to insert a lot of information here so DO NOT IGNORE -----------------------------------
