@@ -38,4 +38,5 @@
 ### I allow usage of my contributed part in this project for any usage excluding:
 - Usage for False purposes such as hacking.
 - Usage for the purpose of profiting.
-
+### As for Felipe Almeida (@fgalmeida) who wrote the steam-auth-grabber part of the project:
+- Read his license which is located [here](https://github.com/fgalmeida/steam-guard-grabber/blob/main/LICENSE).
