@@ -19,8 +19,10 @@ Steam webscraper, will log into steam and change your name every hour automatica
 - You can get your "shared secrets" by installing a steam guard authenticator on your Desktop or on a Rooted Phone.
 - then go into the maFiles folder and the .maFile file, in there you will find the "shared secrets" code.
 ### 5. steamauthcode.txt
+- DO NOT ALTER IT'S NAME WITHOUT CHANGING IT IN THE CODE TOO (usages: main.py, index.js).
 - DO NOT CHANGE IT'S CONTENTS DURING RUN TIME.
 - it will always contain your steam authentication code which main.py needs to use in order to log into your account.
 ### 6. SteamNames.txt
+- DO NOT ALTER IT'S NAME WITHOUT CHANGING IT IN THE CODE TOO (usages: main.py).
 - A file containing your own custom names for the random generator to pick.
 - YOU MUST SEPERATE EACH NAME WITH A ";" SIGN.
