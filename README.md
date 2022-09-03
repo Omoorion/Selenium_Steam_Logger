@@ -1,7 +1,7 @@
-# Selenium Steam Account Logger and Name Changer
+# Selenium Steam Account Logger and Name Alternator
 - A steam webscraper done using selenium and msedge webdriver. 
 - It's purpose is to log into your steam account and change your steam profile name every hour automatically.
-# Requirements for usage:
+# Requirements For Usage
 ### 1. You MUST have NODE.JS installed on your machine.
 - You can install Node.js [here](https://nodejs.org/en/download/).
 ### 2. You MUST use a machine with a WINDOWS OS in order for the Powershell script to work.
