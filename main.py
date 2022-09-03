@@ -99,7 +99,7 @@ signin()  # calling the function in order to sign in to steam.
 
 name1 = ""  # will recieve the randomly generated name later.
 
-# while true loop begins
+# while true loop begins -----------------------------------------------------------------------------------------------
 while True:
     # Generate random name from list:
     file = open(file_path)  # opening the file again every time so that I will be able to dynamically update it
@@ -175,6 +175,4 @@ while True:
     print("Generating new name again in 1 hr")
     name1 = ""
     time.sleep(3600)  # sleep for 1 hr
-    # end of loop ---------------------------------------------------------------
-
-# Take random picture for each name can be from search results of name on Google or random image from pictures folder
+# end of loop ----------------------------------------------------------------------------------------------------------
