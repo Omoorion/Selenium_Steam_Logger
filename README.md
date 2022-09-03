@@ -10,9 +10,11 @@ Steam webscraper, will log into steam and change your name every hour automatica
 ### 2. test.ps1
 - A powershell script that is in charge of executing the index.js file inside the steam guard grabber folder
 ### 3. index.js
+- Is located inside of the steam-guard-grabber folder
 - Requires your steam username password and sharedsecrets which it gets through the config.json file
 - Will Interact with steam and grab your steam authenticator code in order for main.py to log into your account.
 ### 4. config.json
+- Is located inside of the steam-guard-grabber folder
 - You MUST insert in there your steam account username, password and "shared secrets"
 - You can get your "shared secrets" by installing a steam guard authenticator on your Desktop or on a Rooted Phone.
 - then go into the maFiles folder and the .maFile file, in there you will find the "shared secrets" code.
