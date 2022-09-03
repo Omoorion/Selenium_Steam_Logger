@@ -19,6 +19,7 @@
 - You will have to insert a lot of information in the signin function and outside it, therefore you MUST edit it.
 ### 2. test.ps1
 - A powershell script that is in charge of executing the index.js file inside the steam guard grabber folder
+- A path for the index.js file's location MUST be given within it's code.
 ### 3. index.js
 - Is located inside of the steam-guard-grabber folder
 - Requires your steam username password and sharedsecrets which it gets through the config.json file
