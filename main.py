@@ -15,7 +15,8 @@ driver = webdriver.Edge(service=s)
 driver.set_page_load_timeout(15)
 
 # location of your txt file containing the names you want
-file_path = r"D:\YourSteamNamesFolder\SteamNames.txt"
+# if the location is not under the same folder as the rest of the project then you will have to insert your path
+file_path = r"SteamNames.txt"
 
 
 # signin funtion, you will have to insert a lot of information here so DO NOT IGNORE -----------------------------------
@@ -74,7 +75,7 @@ def signin():
 
     # the code has now been written into a steamauthcode txt saver of your choice.
     # now we must grab it and get the code in order to insert it to the steam authenticator.
-    f = open("D:/YourPath/steam-guard-grabber-main/steamauthcode.txt", "r")
+    f = open("steam-guard-grabber-main/steamauthcode.txt", "r")
     steamauthcode = f.read()
     # waiting until the new code is usable (steam auth grabber gives next code instead of current code all the time)
     print("waiting 30 secs for code to be usable...")
