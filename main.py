@@ -119,7 +119,6 @@ while True:
         if text[count] == ";":
             i -= 1
         count += 1
-    count += 1  # skips over a space (speculation)
     while text[count] != ";":
         name1 += text[count]
         count += 1
