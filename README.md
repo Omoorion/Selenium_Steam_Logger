@@ -14,7 +14,7 @@
 - You can get the steam desktop authenticator app [here](https://github.com/jessecar96/steamdesktopauthenticator).
 ### 5. I recommend executing this project on Pycharm or Visual Studio Code.
 - I think that in other IDE's it might get more complicated
-# What You Need To Know Before Usage
+# What You Need To Know Before Use
 ### 1. main.py
 - The main script, it is the script that does the whole process of signing in to steam and chaning your name.
 - You will have to insert a lot of information in the signin function and outside it, therefore you MUST edit it.
