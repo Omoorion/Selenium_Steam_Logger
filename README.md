@@ -1,20 +1,20 @@
 # Selenium Steam Account Logger and Name Alternator
-- A steam webscraper done using selenium and msedge webdriver. 
+- A steam webscraper done using selenium and the msedge webdriver. 
 - It's purpose is to log into your steam account and change your steam profile name every hour automatically.
 - It could also be used for other purposes but that would require you to alter the code in main.py.
 # Requirements For Usage
 ### 1. You MUST have NODE.JS installed on your machine.
 - You can install Node.js [here](https://nodejs.org/en/download/).
 ### 2. You MUST use a machine with a WINDOWS OS in order for the Powershell script to work.
-- Otherwise, you must change the powershell script into your OS's alternative.
+- Otherwise, you must change the powershell script into your OS's equivalent.
 ### 3. You MUST have an Edge webdriver and an Edge Browser installed on your machine.
 - If you prefer a different browser, you must alter the code in main.py for it to work).
 - You can get the webdriver [here](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/).
 ### 4. You MUST have a Steam Authenticator Application installed on a Rooted Machine (Rooted = has a file explorer).
-- You can get the steam desktop authenticator app [here](https://github.com/jessecar96/steamdesktopauthenticator).
-### 5. I recommend executing this project on Pycharm or Visual Studio Code.
-- I think that in other IDE's it might get more complicated
-# What You Need To Know Before Use
+- You can get the steam desktop authenticator application [here](https://github.com/jessecar96/steamdesktopauthenticator).
+### 5. You should use an IDE such as Pycharm or Visual Studio Code for execution of this project.
+- I think that in other IDEs it might get more complicated
+# What You Need To Know Before Using This Script
 ### 1. main.py
 - The main script, it is the script that does the whole process of signing in to steam and changing your name.
 - You will have to insert a lot of information in the signin function and outside of  it, therefore you MUST edit it.
