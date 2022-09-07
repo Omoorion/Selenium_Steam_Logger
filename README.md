@@ -16,8 +16,8 @@
 - I think that in other IDE's it might get more complicated
 # What You Need To Know Before Use
 ### 1. main.py
-- The main script, it is the script that does the whole process of signing in to steam and chaning your name.
-- You will have to insert a lot of information in the signin function and outside it, therefore you MUST edit it.
+- The main script, it is the script that does the whole process of signing in to steam and changing your name.
+- You will have to insert a lot of information in the signin function and outside of  it, therefore you MUST edit it.
 ### 2. test.ps1
 - A powershell script that is in charge of executing the index.js file inside the steam guard grabber folder
 - A path for the index.js file's location MUST be given within it's code.
