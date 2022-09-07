@@ -115,10 +115,11 @@ while True:
 
     i = random.randint(1, numoflines)  # symbolizes the number of lines in the text
     count = 0
-    while i > 0 and count < len(text):
+    while i > 1 and count < len(text):
         if text[count] == ";":
             i -= 1
         count += 1
+    # count is currently located at the first letter of the chosen word
     while text[count] != ";":
         name1 += text[count]
         count += 1
