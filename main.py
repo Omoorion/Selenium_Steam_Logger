@@ -144,13 +144,15 @@ while True:
 
     input_field = driver.find_element(By.NAME, "personaName")
 
-    time.sleep(1)  # giving you one second to regret naming yourself something different
-    while input_field is None:
+    try:
         input_field = driver.find_element(By.NAME, "personaName")
-    driver.implicitly_wait(10)
-    input_field.clear()
-    time.sleep(1)  # for cool effect
-    input_field.send_keys(name1)
+    except NoSuchElementException:
+        driver.refresh()
+        driver.implicitly_wait(10)
+        input_field = driver.find_element(By.NAME, "personaName")
+        input_field.clear()
+        time.sleep(1)  # for cool effect
+        input_field.send_keys(name1)
 
     time.sleep(1)  # cooldown
 
