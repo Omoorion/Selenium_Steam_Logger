@@ -151,9 +151,10 @@ while True:
         driver.refresh()
         driver.implicitly_wait(10)
         input_field = driver.find_element(By.NAME, "personaName")
-        input_field.clear()
-        time.sleep(1)  # for cool effect
-        input_field.send_keys(name1)
+        
+    input_field.clear()
+    time.sleep(1)  # for cool effect
+    input_field.send_keys(name1)
 
     time.sleep(1)  # cooldown
 
